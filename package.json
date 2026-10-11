@@ -1,0 +1,34 @@
+{
+	"name": "@turtl/eslint-config",
+	"version": "0.3.0",
+	"type": "module",
+	"description": "Configuration ESLint partagée : TypeScript strict, stylistic, import-x et règles custom (Lit, templates taggés)",
+	"main": "config.mjs",
+	"exports": {
+		".": "./config.mjs",
+		"./rules": "./rules/index.mjs"
+	},
+	"files": [
+		"config.mjs",
+		"rules"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ArthurG94/eslint-config.git"
+	},
+	"author": "Guerry Arthur",
+	"license": "ISC",
+	"dependencies": {
+		"@eslint/js": "^10.0.1",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"eslint-import-resolver-typescript": "^4.4.5",
+		"eslint-plugin-import-x": "^4.17.1",
+		"typescript-eslint": "^8.65.0"
+	},
+	"peerDependencies": {
+		"eslint": "^10.4.0"
+	},
+	"devDependencies": {
+		"eslint": "^10.4.0"
+	}
+}
